@@ -1,8 +1,8 @@
-<html>
-<head>First Program</head>
+html>
 <body>
-<script>
-document.write(date());
-</script>
+        <p id="demo"></p>
+        <script>
+            document.getElementById("demo").innerHTML = Date();
+        </script>
 </body>
 </html>
